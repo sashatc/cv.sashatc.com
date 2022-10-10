@@ -1,0 +1,240 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Sasha T.C.
+    tagline: | 
+      Senior Product Manager<br />
+      Partner :: Entrepreneur :: Builder
+    avatar: white_photo_rnd_prev_bw.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    title: Contact
+    email: sasha.tc@icloud.com
+    phone: 510 206 0128
+    timezone: US/Pacific Time Zone
+    citizenship: Sacramento, CA, 95834
+    website: cv.sashatc.com
+    linkedin: sashatc
+    xing: 
+    github: 
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: "https://cv.sashatc.com/assets/Sasha T.C. Online CV.pdf"
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Professional
+
+        - idiom: Ukrainian
+          level: Native Bilingual
+
+        - idiom: Russian
+          level: Native Bilingual
+
+        - idiom: French
+          level: Beginner 
+
+        - idiom: German
+          level: Beginner
+
+    skills:
+      title: Expertise
+      info:
+        - item: Product Management
+        - item: Agile & Lean Methodologies 
+        - item: AI & Machine Learning
+        - item: User Behavior Analytics
+        - item: Requirement Solicitation
+        - item: Market Analysis
+        - item: AB & Multivariant Live Experimentation
+        - item: Information Search & Retrieval Systems
+        - item: Display & Text Advertisement Publishing
+        - item: eCommerce Marketplaces    
+
+    softskills:
+      title: Soft Skills
+      info:
+        - item: Teams Gardening
+        - item: Active Listening 
+        - item: Difficult Conversations and Saying NO
+        - item: Persuasion and Getting to YES
+        - item: Brainstorming & Ideation
+        - item: Systems Thinking
+        - item: Design Thinking
+
+    interests:
+      title: Interests
+      info:
+        - item: Aviation & Flight Simulation
+          link:
+
+        - item: Reading (mostly business, management, self-development)
+          link:
+
+        - item: Privacy Protection and Cryptography
+          link:
+
+        - item: Human Rights and Law
+          link:
+
+        - item: Machine Learning & AI, Data Science
+          link:
+
+career-profile:
+    title: Profile
+    summary: |
+      Senior Product Manager with a solid technical background and strong business acumen, offering 20+ years of IT industry experience with over a decade in various PM roles internationally. Active and empathetic listener to customer needs. Skilled in identifying, evaluating market opportunities, and seizing them via disciplined lean agile execution. Brought new products from inception to market, grew installed customer base orders of magnitude, optimized existing platform performance enabling acquisition deal   for more than 240M USD, redesigned customer experiences rising overall NPS to 60+. Designed and implemented successful highly relevant automated email marketing campaigns with open rates above 40% and CTR north of 10%. 
+education:
+    title: Education
+    info:
+      - degree: BSc in Business Processes Automation (drop-out)
+        university: Zhytomyr State Technological University
+        time: 1998 - 2001
+        details: |
+experiences:
+    title: Experience
+    info:
+      - role: Senior Product Manager, Founder
+        time: 2022 - Present
+        company: STC LABS, SACRAMENTO, CA
+        details: |
+          On a mission to help research and improve meaningfulness of social connections and socio- economic behaviors via games and simulations.
+          - Problem and customer needs research
+          - From Vision, Mission, Values definitions to Strategies and Tactics of Initiatives Implementation for the greatest Complete Product Experience possible
+          - Potential solutions design, validation, implementation and iteration over and over again
+          - All other functional startup founder hats in G&A and R&D  
+      - role: Senior Product Manager, Co-founder
+        time: 2018 - 2021
+        company: ALDABADA INC, EMERYVILLE, CA
+        details: |
+          Ultimate zero-to-one product and company building experience
+          - Founded a startup based on my vision of personal AI-based legal assistant
+          - Engaged and on-boarded technical co-founder
+          - Graduated sFoundation Accelerator Fall 2019 cohort
+          - Collaborated on rapid prototyping, hypotheses testing and searching for a product-market fit 
+          - Released MVP of the data labeling product YasNah (Web, Android and iOS apps)
+          - Gained deep appreciation of the importance of motivated customer base and effective marketing
+      - role: Product Manager
+        time: 2016 - 2017
+        company: FRONTIERS MEDIA SA, LAUSANNE, SWITZERLAND
+        details: |
+          - Managed multiple API services used by internal and external products development teams
+          - Championed microservice-based architecture with contracts, protocols, and versioning
+          - Stabilized and released revamped engine for data collection and processing
+          - Redesigned Impact Metrics product user experience into a multi-platform responsive unified journey
+          - Recognized the opportunities for automated email marketing campaigns and shepherded this product from nothing to launch
+      - role: Product Manager
+        time: 2014 - 2015
+        company: RICARDO AG, ZUG, SWITZERLAND
+        details: |
+          - Worked in sync with the UX, Marketing, Sales, Data Science, Production teams
+          - Integrated ads publishing feature across the platform with minimal GMV cannibalization to diversify and grow revenue streams
+          - Improved conversion rates of Search feature users using algorithmic experimentation and optimization 
+          - Proposed and developed search API as an internal product for Seller Experience team
+          - Redesigned Navigation and Search product UX into multi-platform, seamless responsive unified journey
+      - role: Product Owner & Business Analyst
+        time: 2011 - 2013
+        company: EASYGENERATOR BV, ROTTERDAM, THE NETHERLANDS
+        details: |
+          - Performed total rebranding of the existing product for the entry to the US market and successfully launched it in DevLearn'2012 in Las Vegas
+          - Conceptualized and brought to ready-for-market state entirely new Web-based SaaS product
+          - Identified the need, defined the specs, and ensured the timely implementation of a Java-script SDK for template developers
+      - role: Product Manager, Founder
+        time: 2004 - 2010
+        company: DESIRELAND & L2GEO.COM, KYIV, UKRAINE
+        details: | 
+          - Marketed and sold data product for gaming server developers, provided post-sale updates and support
+          - Evangelized new features and improvements to gaming community
+          - Hired and managed customer support team of 3 people
+          - Implemented and maintained multi-service architecture with security gateways     
+products:
+    title: Products
+    intro: >
+      These are the most important products and projects that I have either succeeded or failed at, always learning from the process and the outcomes:
+    assignments:
+      - title: Trust.Game
+        link: https://trust.game
+        tagline: "A socio-economic game where players build their social wealth measured in units of Trust by connecting and risking with their trusted peers. An ambitious project with a vision aimed to shift the present perception of the value of influencer-follower relationships, as well as content and action likes-dislikes counts in existing digital social environments. "
+      - title: YasNah
+        link: https://yasnah.com
+        tagline: "The simplest in the industry data labeling tool that allows sorting raw data into binary class datasets by simple and familiar swiping gestures. Usable across platforms, professionally or casually. Customers engaged their internal labeling workforce or outsourced and hired externally provided resources."
+      - title: 1Contract + 1Privacy + 1Warranty
+        link: https://aldabada.com
+        tagline: "A suite of omnipresent tools (desktop, web, mobile apps, plugins, and extensions) designed to help consumers  create and maintain their inventory of their legal, digital, privacy, and warranty rights and choices."
+      - title: Frontiers Impact
+        link: https://loop-impact.frontiersin.org/impact/article/62627
+        tagline: "A ground-up rebuild of the scientific open-access publisher analytics platform. From data scraping, logs processing and consolidation pipelines, microservices, and APIs - to the new responsive web design presentation. System for detection of trigger events, which increase audience engagement through relevant and non-intrusive email campaigns, both transactional and marketing."
+      - title: Ricardo Ads
+        link: https://ricardo.ch
+        tagline: "Integration of context-relevant advertisement (display and text) as an additional revenue stream. Implemented with minimal cannibalization of the core sales commissions and fees. Continuous experimentation to optimize ads performance and minimize UX impact."
+      - title: Ricardo Search
+        link: https://ricardo.ch
+        tagline: "Continuous complete product experience improvements through experiments and data-driven algorithmic optimization of recall, precision, and ranking. New presentation modes, new instruments for query input and refinement, results sorting, and filtration."
+      - title: Ricardo Responsive Web
+        link: https://ricardo.ch
+        tagline: "Redesign of #1 Swiss e-Commerce C2C and B2C marketplace into a highly usable, empathetic to customers, responsive, and accessible web portal for everyday shopping."
+      - title: Easygenerator Web
+        link: https://easygenerator.com
+        tagline: "From concept design to the launch of a completely new online eLearning authoring and delivery platform for collaborative content creation by Instructional Designers, SMEs, and peer co-workers. Cross-platform, clientless, fast, and simple UX."
+      - title: Easygenerator U.S.
+        link: https://easygenerator.com
+        tagline: "Overhaul of legacy and sluggish WinForms thin-client eLearning tool from multiple, highly customized for just a handful of European customers, branches into totally re-branded, highly-performant, unified authoring platform ready to be launched massively on the U.S. market."
+      - title: L2Geo
+        link: https://l2geo.com
+        tagline: "Set of the game world geometry data for MMORPG servers. This product enabled smooth, controllable, and bugless player characters and NPC placement, movement, and combat physics simulation. Produced using proprietary 3D raytracing algorithms and distributed to server administrators around the globe."
+      - title: Desireland
+        link: https://la2.kiev.ua
+        tagline: "From 0 to 10,000+ accounts in the local gaming community with multiple core and secondary services. 3,000+ peak simultaneous online real-time presence. Knowledge databases, communication facilities, in-game support and game mastering, and numerous online and offline events."
+
+certifications:
+    title: Certifications
+    intro: |
+      Full list of certificates can be found in my LinkedIn profile, but here are the ones I am the proudest of:
+    papers:
+      - title: Certified Scrum Product Owner
+        link: https://www.linkedin.com/in/sashatc/details/certifications/
+        authors: Scrum Alliance
+        conference: 2012
+
+tools:
+    title: Tools & Technologies
+
+    toolset:
+      - name: Trello, Atlassian JIRA/Confluence, Aha!, ProductBoard
+        level: 98%
+
+      - name: Optimizely, Google Experiments
+        level: 98%
+
+      - name: Google Analytics, Mixpanel, Google Tag Manager
+        level: 98%
+
+      - name: Sketch, Balsamiq
+        level: 85%
+
+      - name: SendGrid, Twilio, MailChimp, Survey Monkey, UsabilityHub
+        level: 85%
+
+      - name: MSSQL and Analytics Cubes, GCP, BigQuery, DataPrep & DataFlow
+        level: 60%
+
+      - name: iOS, Swift, Android, Firebase, Firestore 
+        level: 60% 
+
+      - name: Tensorflow, Keras, GCP Datalab & ML Engine
+        level: 50% 
+
+footer: >
+      <i>To improve is to change, to be perfect is to change often </i> ~Winston Churchill<br />Designed with <i class="fas fa-heart"></i> in California

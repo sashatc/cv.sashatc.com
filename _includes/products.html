@@ -1,0 +1,38 @@
+{% assign products = site.data.data.products %}
+{% if products %}
+<section class="section projects-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ products.title }}
+  </h2>
+
+  {% if products.intro %}
+  <div class="intro">
+      <p>{{ products.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for product in products.assignments %}
+    <div class="item">
+
+      <span class="project-title">
+        {% if product.link %}
+        <a href="{{ product.link }}" target="_blank">{{ product.title }}</a>
+        {% else %}
+        {{ product.title }}
+        {% endif %}
+      </span>
+
+      {% if product.tagline %}
+      - <span class="project-tagline">{{ product.tagline }}</span>
+      {% endif %}
+
+    </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}

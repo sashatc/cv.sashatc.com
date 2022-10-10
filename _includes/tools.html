@@ -1,0 +1,23 @@
+{% assign tools = site.data.data.tools %}
+{% if tools %}
+<div class="interests-container container-block">
+
+  <h2 class="container-block-title">
+    {{ tools.title }}
+  </h2>
+
+  <ul class="list-unstyled interests-list">
+    {% for tool in tools.toolset %}
+    <div class="item">
+      <li>{{ tool.name }}</li>
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ tool.level }}">
+        </div>
+      </div>
+      </div>
+    {% endfor %}
+  </ul>
+
+</div><!--//skills-->
+{% endif %}
+
